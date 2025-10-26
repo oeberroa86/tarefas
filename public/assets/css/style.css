@@ -1,0 +1,42 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+}
+
+.btn {
+    border-radius: 5px;
+}
+
+.form-control {
+    border-radius: 5px;
+}
+
+.task-card {
+    transition: all 0.3s ease;
+}
+
+.task-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.task-card.border-success {
+    background-color: #f8fff8;
+}
+
+.form-check-input:checked {
+    background-color: #198754;
+    border-color: #198754;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.btn-group .btn {
+    border-radius: 5px;
+}

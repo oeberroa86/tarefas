@@ -1,0 +1,29 @@
+# Dependencias de Composer (NO subir vendor/)
+vendor/
+
+# Archivos de entorno y configuración sensible
+.env
+config/database.php
+*.env.local
+
+# Logs de aplicación
+*.log
+storage/logs/
+
+# Archivos temporales y cache
+.cache/
+tmp/
+*.tmp
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# XAMPP específico
+htdocs/
